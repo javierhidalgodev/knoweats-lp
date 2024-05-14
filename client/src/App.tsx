@@ -1,10 +1,10 @@
 import Layout from './Layout.tsx'
 import Main from './components/Main.tsx'
 import ComeBien from './components/ComeBien.tsx'
-import Platos from './components/Platos.tsx'
+import Platos from './components/Platos/Platos.tsx'
 import Ventajas from './components/Ventajas.tsx'
 import Oferta from './components/Oferta.tsx'
-import FAQs from './components/FAQs.tsx'
+import FAQs from './components/FAQs/FAQs.tsx'
 import Partners from './components/Partners.tsx'
 
 const App = () : JSX.Element => {

@@ -36,7 +36,7 @@ const CarouselCard = ({ item }: { item: MenuItem }) => {
                         </div>
                         <div className="tienes-que-probar__card-alergenos flex gap-2">
                             {
-                                item.allergens.map(item => <img src={`./src/assets/${item}.svg`} alt={item} className="w-6" key={crypto.randomUUID()} />
+                                item.allergens.map(item => <img src={`/${item}.svg`} alt={item} className="w-6" key={crypto.randomUUID()} />
                                 )
                             }
                         </div>

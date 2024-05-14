@@ -1,5 +1,5 @@
 import { useState } from "react"
-import faqs from "../mocks/faqs.json"
+import faqs from "../../mocks/faqs.json"
 import FAQ from "./FAQ"
 
 const FAQs = () => {

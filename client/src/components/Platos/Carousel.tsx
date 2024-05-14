@@ -1,6 +1,6 @@
 import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
-import menu from '../mocks/platos.json'
+import menu from '../../mocks/platos.json'
 import CarouselCard from './CarouselCard'
 
 const Carousel = () => {

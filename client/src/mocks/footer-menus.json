@@ -1,0 +1,39 @@
+[
+    {
+        "header": "Empresa",
+        "items": [
+            "¿Cómo funciona?",
+            "¿Quiénes somos?",
+            "Sistema de envíos",
+            "Plastic Neutral"
+        ]
+    },
+    {
+        "header": "Productos y servicios",
+        "items": [
+            "Menú de la semana",
+            "Comidas para empresa",
+            "Recargar el monedero"
+        ]
+    },
+    {
+        "header": "Información",
+        "items": [
+            "Preguntas frecuentes",
+            "Política de privacidad",
+            "Términos y condiciones de uso",
+            "Aviso legal",
+            "Envíos",
+            "Devoluciones",
+            "GDPR Compliance"
+        ]
+    },
+    {
+        "header": "Contacto",
+        "items": [
+            "Contacta con nosotros",
+            "info@knoweats.com",
+            "¡Pregúntanos por WhatsApp!"
+        ]
+    }
+]
