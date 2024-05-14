@@ -1,0 +1,190 @@
+[
+    {
+        "name": "Carrillera de cerdo en salsa Pedro Ximénez",
+        "img": "carrilleras-cerdo-px.webp",
+        "imgAlt": "Carrilleras de cerdo",
+        "weight": 450,
+        "allergens": [
+            "sulphites"
+        ],
+        "price": 8.15,
+        "macros": {
+            "kilocalories": 558,
+            "proteins": 41,
+            "carbohydrates": 30,
+            "fats": 27
+        }
+    },
+    {
+        "name": "Salmón al pesto verde",
+        "status": "agotado",
+        "img": "salmon-al-pesto.webp",
+        "imgAlt": "Salmon al pesto",
+        "weight": 400,
+        "allergens": [
+            "fish",
+            "milk",
+            "nuts",
+            "gluten"
+        ],
+        "price": 8.95,
+        "macros": {
+            "kilocalories": 652,
+            "proteins": 38,
+            "carbohydrates": 30,
+            "fats": 42
+        }
+    },
+    {
+        "name": "Pavo en salsa de tomate al ajillo",
+        "status": "agotado",
+        "img": "pavo-tomate-al-ajillo.webp",
+        "imgAlt": "Pavo con tomate al ajillo",
+        "weight": 450,
+        "allergens": [
+            "celery",
+            "sulphites"
+        ],
+        "price": 7.25,
+        "macros": {
+            "kilocalories": 522,
+            "proteins": 51,
+            "carbohydrates": 37,
+            "fats": 18
+        }
+    },
+    {
+        "name": "Risotto de gamba y tomate seco",
+        "img": "risotto-gambas-tomate-seco.webp",
+        "imgAlt": "Risotto con gambas y tomate seco",
+        "weight": 420,
+        "allergens": [
+            "crustaceans",
+            "mollusks",
+            "fish",
+            "celery",
+            "sulphites",
+            "milk"
+        ],
+        "price": 6.85,
+        "macros": {
+            "kilocalories": 685,
+            "proteins": 31,
+            "carbohydrates": 71,
+            "fats": 30
+        }
+    },
+    {
+        "name": "Lentejas con chorizo",
+        "status": "agotado",
+        "img": "lentejas-chorizo.webp",
+        "imgAlt": "Lentejas con chorizo",
+        "weight": 450,
+        "allergens": [
+            "celery"
+        ],
+        "price": 5.95,
+        "macros": {
+            "kilocalories": 765,
+            "proteins": 50,
+            "carbohydrates": 71,
+            "fats": 31
+        }
+    },
+    {
+        "name": "Noodles de pollo al curry con verduras",
+        "img": "pollo-curry.webp",
+        "imgAlt": "Pollo al curry",
+        "weight": 400,
+        "allergens": [
+            "gluten",
+            "soy"
+        ],
+        "price": 6.95,
+        "macros": {
+            "kilocalories": 568,
+            "proteins": 32,
+            "carbohydrates": 64,
+            "fats": 20
+        }
+    },
+    {
+        "name": "Bacalao a la naranja con patatas y guisantes a la menta",
+        "img": "bacalao-salsa-naranja.webp",
+        "imgAlt": "Bacalo con salsa de naranja",
+        "weight": 450,
+        "allergens": [
+            "fish",
+            "sulphites",
+            "mollusks",
+            "crustaceans",
+            "celery"
+        ],
+        "price": 8.95,
+        "macros": {
+            "kilocalories": 391,
+            "proteins": 41,
+            "carbohydrates": 39,
+            "fats": 8
+        }
+    },
+    {
+        "name": "Pollo en salsa satay con arroz",
+        "status": "agotado",
+        "img": "pollo-satay.webp",
+        "imgAlt": "Pollo satay",
+        "weight": 450,
+        "allergens": [
+            "peanuts",
+            "soy",
+            "gluten",
+            "crustaceans",
+            "soft_spicy"
+        ],
+        "price": 6.95,
+        "macros": {
+            "kilocalories": 796,
+            "proteins": 52,
+            "carbohydrates": 50,
+            "fats": 43
+        }
+    },
+    {
+        "name": "Pechuga de pollo en salsa roquefort",
+        "status": "agotado",
+        "img": "pollo-roquefort.webp",
+        "imgAlt": "Pollo con salsa roquefort",
+        "weight": 450,
+        "allergens": [
+            "celery",
+            "milk"
+        ],
+        "price": 7.25,
+        "macros": {
+            "kilocalories": 513,
+            "proteins": 39,
+            "carbohydrates": 30,
+            "fats": 26
+        }
+    },
+    {
+        "name": "Meloso de ternera en salsa thai",
+        "status": "agotado",
+        "img": "meloso-ternera.webp",
+        "imgAlt": "Meloso de ternera",
+        "weight": 420,
+        "allergens": [
+            "milk",
+            "celery",
+            "soy",
+            "gluten"
+        ],
+        "price": 8.95,
+        "macros": {
+            "kilocalories": 575,
+            "proteins": 48,
+            "carbohydrates": 28,
+            "fats": 29
+        }
+    }
+]

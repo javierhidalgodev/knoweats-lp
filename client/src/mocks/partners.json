@@ -1,0 +1,22 @@
+[    
+    {
+        "partner": "Alicante Plaza",
+        "img": "alicanteplaza.bmp"
+    },
+    {
+        "partner": "RTVE",
+        "img": "rtve.bmp"
+    },
+    {
+        "partner": "OCU",
+        "img": "ocu.bmp"
+    },
+    {
+        "partner": "El Mundo",
+        "img": "elmundo.bmp"
+    },
+    {
+        "partner": "Cosmopolitan",
+        "img": "cosmopolitan.bmp"
+    }
+]
