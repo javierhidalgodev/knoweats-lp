@@ -8,7 +8,7 @@ const Header = () => {
     const [hamburgerOpen, setHamburgerOpen] = useState<boolean>(false)
     const [scrolled, setScrolled] = useState<boolean>(false)
 
-    const warningHeight = document.querySelector('.header__warning')?.clientHeight
+    // const warningHeight = document.querySelector('.header__warning')?.clientHeight
     
     useEffect(() => {
         addEventListener('scroll', () => {
