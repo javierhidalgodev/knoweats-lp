@@ -4,7 +4,7 @@ import menu from '../../mocks/platos.json'
 import CarouselCard from './CarouselCard'
 
 const Carousel = () => {
-    const [emblaRef] = useEmblaCarousel({ dragFree: true }, [Autoplay({playOnInit: true, stopOnInteraction: false})])
+    const [emblaRef] = useEmblaCarousel({ dragFree: true, align: 'start' }, [Autoplay({playOnInit: true, stopOnInteraction: false})])
 
     return (
         <div className="embla overflow-hidden" ref={emblaRef}>

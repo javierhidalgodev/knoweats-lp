@@ -12,7 +12,7 @@ const Oferta = () => {
                     <p>A partir de <strong>12 platos: 8%</strong> de descuento.</p>
                     <p>A partir de <strong>18 platos: 10%</strong> de descuento.</p>
                 </div>
-                <video autoPlay loop preload='metadata' className='max-w-[400px]'>
+                <video autoPlay loop preload='metadata' className='max-w-[400px] select-none'>
                     <source src="./oferta.mp4" type='video/mp4' />
                 </video>
             </div>

@@ -18,6 +18,10 @@ const Header = () => {
         })
     }, [])
 
+    const handleMenuClick = () => {
+        setHamburgerOpen(false)
+    }
+
     return (
         <>
             <header className={`w-full bg-green text-white fixed z-10 duration-100`}>
@@ -27,10 +31,10 @@ const Header = () => {
                 <div className="max-w-[1000px] p-7 mx-auto flex max-md:flex-col-reverse items-center justify-between">
                     <nav id='right-nav' className={`${hamburgerOpen ? 'max-md:block' : 'max-md:hidden'} max-md:py-7 w-full`}>
                         <ul className='relative flex max-md:flex-col gap-5 font-bold [&_li]:relative [&_li]:w-fit'>
-                            <li><a href='#tienes-que-probar'>MENÚ DE LA SEMANA</a></li>
-                            <li><a href='#come-tres-pasos'>CÓMO FUNCIONA</a></li>
-                            <li><a href=''>¿QUIÉNES SOMOS?</a></li>
-                            <li><a href='#faqs'>FAQ'S</a></li>
+                            <li onClick={handleMenuClick}><a href='#tienes-que-probar' >MENÚ DE LA SEMANA</a></li>
+                            <li onClick={handleMenuClick}><a href='#come-tres-pasos'>CÓMO FUNCIONA</a></li>
+                            <li onClick={handleMenuClick}><a href=''>¿QUIÉNES SOMOS?</a></li>
+                            <li onClick={handleMenuClick}><a href='#faqs'>FAQ'S</a></li>
                         </ul>
                     </nav>
                     <nav className='max-md:w-full'>
