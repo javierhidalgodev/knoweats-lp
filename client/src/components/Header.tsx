@@ -20,17 +20,17 @@ const Header = () => {
 
     return (
         <>
-            <header className={`w-full bg-green text-white fixed z-10 duration-100 ${scrolled ? `-translate-y-[${warningHeight}px]` : ''}`}>
-            <div className={`header__warning p-2 bg-red-700 text-center text-balance`}>
+            <header className={`w-full bg-green text-white fixed z-10 duration-100`}>
+            <div className={`header__warning p-2 bg-red-700 text-center text-balance ${scrolled ? 'hidden' : ''}`}>
                 <small>Esta página es una práctica de desarrollo web. Visite la página oficial en <a href='https://knoweats.com/' target='_blank' className='text-yellow-300'>knoweats.com</a>.</small>
             </div>
                 <div className="max-w-[1000px] p-7 mx-auto flex max-md:flex-col-reverse items-center justify-between">
                     <nav id='right-nav' className={`${hamburgerOpen ? 'max-md:block' : 'max-md:hidden'} max-md:py-7 w-full`}>
                         <ul className='relative flex max-md:flex-col gap-5 font-bold [&_li]:relative [&_li]:w-fit'>
-                            <li><a href=''>MENÚ DE LA SEMANA</a></li>
+                            <li><a href='#tienes-que-probar'>MENÚ DE LA SEMANA</a></li>
                             <li><a href='#come-tres-pasos'>CÓMO FUNCIONA</a></li>
                             <li><a href=''>¿QUIÉNES SOMOS?</a></li>
-                            <li><a href=''>FAQ'S</a></li>
+                            <li><a href='#faqs'>FAQ'S</a></li>
                         </ul>
                     </nav>
                     <nav className='max-md:w-full'>

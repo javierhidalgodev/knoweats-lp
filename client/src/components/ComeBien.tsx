@@ -4,7 +4,7 @@ import comeBien3 from '../assets/Mesa_de_trabajo_2_2.svg'
 
 const ComeBien = () => {
     return (
-        <section id='come-tres-pasos' className='mx-auto mt-14 lg:px-2 max-w-5xl flex max-lg:flex-col gap-6'>
+        <section id='come-tres-pasos' className='mx-auto pt-28 lg:px-2 max-w-5xl flex max-lg:flex-col gap-6'>
             <div className='p-10 flex flex-col items-center lg:rounded-2xl bg-[#ecf1ee]'>
                 <h3 className='come-tres-pasos__title w-fit mb-5 text-4xl font-extrabold text-balance text-center'>Come bien en tres pasos</h3>
                 <div className='flex flex-wrap justify-center [&>div]:p-4 [&>div]:min-w-[250px]'>

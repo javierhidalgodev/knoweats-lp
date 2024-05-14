@@ -16,7 +16,7 @@ const FAQs = () => {
     }
 
     return (
-        <section id="faqs" className='mt-14 mx-auto max-w-5xl px-6 lg:px-2 flex flex-col items-center gap-6 text-balance'>
+        <section id="faqs" className='mx-auto max-w-5xl px-6 pt-28 lg:px-2 flex flex-col items-center gap-6 text-balance'>
             <div className="faqs__header flex flex-col items-center text-center">
                 <h4 className='text-lg'>TE AYUDAMOS A LO QUE NECESITES</h4>
                 <h3 className='faqs__title w-fit text-4xl font-extrabold text-black text-balance'>¿ALGUNA DUDA?</h3>
